@@ -7,11 +7,11 @@ import logo from "../../public/assets/images/extend.png";
 import Part1 from "@/components/part1";
 
 export default function Home() {
-  const [page, setPage] = useState(2);
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
     setTimeout(() => {
-      // setPage(2);
+      setPage(2);
     }, 3000);
   }, []);
 
