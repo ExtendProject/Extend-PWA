@@ -1,3 +1,3 @@
 export const Config = {
-      END_POINT_URL:"https://227f-139-162-113-228.ngrok-free.app"
+      END_POINT_URL:"https://e9e7-154-161-53-16.ngrok-free.app"
 }

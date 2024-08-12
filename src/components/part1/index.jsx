@@ -19,6 +19,7 @@ function Part1() {
 
 
   const handleFileChange = (event) => {
+    event.preventDefault()
     const selectedFiles = event.target.files;
     console.log(selectedFiles);
     let validFiles = [...files]; // Copy existing files
