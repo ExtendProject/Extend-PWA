@@ -3,6 +3,7 @@ Here's a revised and more professional README for your project, **Extend**:
 ---
 
 # Extend
+- The Sustainable Home Design Application leverages Google technology and the Gemini AI model to provide users with innovative and eco-friendly solutions for modifying or building homes. Users can upload pictures of their existing homes or designs, and the application will suggest sustainable modifications and building techniques.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

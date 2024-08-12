@@ -36,6 +36,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  /* border:1px solid; */
+  justify-content: space-evenly;
 }
 
 /* Add this to your page.module.css */
