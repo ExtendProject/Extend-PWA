@@ -1,0 +1,27 @@
+:root {
+  height: 100vh;
+
+  /* css variables */
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-color: #5c5e62;
+  --blue-color: #014cec;
+  --lightGray-color: #f8f8f8;
+  --ash-color: #707070;
+  --dim-orange: #c25700;
+  --disabled-color: #bcbfc5;
+  --dip-ash: #5f5f5f;
+  --divider-color:#e7e7e7;
+}
+
+body {
+  margin: 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}

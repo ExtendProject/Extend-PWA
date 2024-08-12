@@ -1,0 +1,41 @@
+.input {
+  background-color: #f8f8f8;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  color: var(--gray-color);
+
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-family: var(--font-regular);
+  color: var(--black-color);
+}
+
+.countryCode {
+  font-size: 18px;
+  font-family: var(--font-regular);
+  padding-left: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.state {
+  font-size: 18px;
+  font-family: var(--font-regular);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+  margin-right: 60px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

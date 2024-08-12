@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-family: var(--font-bold);
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.bottom {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 430px;
+  box-sizing: border-box;
+  padding-inline: 25px;
+  bottom: 0;
+  position: fixed;
+  background-color: white;
+}
+
+.input_container {
+  width: 75%;
+}
+
+.image {
+  width: 110px;
+  height: 110px;
+}
+
+.imageContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+/* Add this to your page.module.css */
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalContent p {
+  font-family: var(--font-bold);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.material_item {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-inline: 30px;
+}
+
+.material_item h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: var(--font-bold);
+
+}
+
+.material_item p {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 8px;
+  font-family: var(--font-medium);
+
+}
+
+.market_alternate{
+  font-family: var(--font-medium);
+}
+
+.available{
+  font-family: var(--font-bold);
+
+}
+.material_item p strong {
+  color: #333;
+  font-family: var(--font-bold);
+
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.infomation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-family: var(--font-medium);
+
+  /* margin-top: 50px; */
+}
+
+.budget_summary {
+  background-color: #e9ecef;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-inline: 25px;
+}
+
+.budget_summary p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+  font-family: var(--font-bold);
+
+}
+
+.info {
+  color: #877e7e;
+  font-family: var(--font-medium);
+  font-size: 13px;
+  width: 60%;
+  text-align: center;
+}
+
+#construction_title {
+  margin-left: 25px;
+  font-family: var(--font-bold);
+}
